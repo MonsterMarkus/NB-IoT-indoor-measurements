@@ -1,0 +1,61 @@
+% Script for mapping indoor measurements of NB IoT to GPS coordinates
+% Finger print:
+%   Takes a GPS coordinate, corresponding to (0,0) in indoor measurements
+%   Takes a dataset of distances in x,y coordinates
+%
+%   Maps each coordinate in dataset to a gps location
+
+function GPS = mapping(latRx1, lonRx1, latRx2, lonRx2, latTx, lonTx)
+
+    %Earth radius from wiki
+    eRadius = 6371008.8; %in meters
+    %Length between 1 decimal degree of latitudes
+    latLen = 111320; %in meters
+
+    %read gps callibration point 1
+    latRx1 = 55.78216837488841;
+    lonRx1 = 12.518407744325714;
+    %read gps callibration point 2
+    latRx2 = 55.78215351835434;
+    lonRx2 = 12.518683523339064;
+
+    %read gps coordinate of Tx equipment
+    latTx = 55.78436582959851;
+    lonTx = 12.522821925170433;
+
+    %Distance in meters:
+    %Between calibration point 1 and TX
+    [distHarv1, DistPyth1] = lldistkm([latRx1 lonRx1],[latTx lonTx]);
+    %Between calibration point 2 and TX
+    [distHarv2, DistPyth2] = lldistkm([latRx2 lonRx2],[latTx lonTx]);
+    %Between the 2 calibration points
+    [distHarv3, DistPyth3] = lldistkm([latRx1 lonRx1],[latRx2 lonRx2]);
+    %compute angle
+    b= (latRx2 -latRx1)*111320;
+    theta =  asin(b/distHarv3);
+
+
+    %Assume calibration point 1 corresponds to (0,0) in dataset
+
+    data = [0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4; 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3];
+
+
+
+
+
+    %Rotate
+    G = data;
+    G(1,:) = data(1,:)*cos(theta)-data(2,:)*sin(theta);
+    G(2,:) = data(1,:)*sin(theta)+data(2,:)*cos(theta);
+
+    %compute gps coordinate matrix.
+    GPS = G;
+    GPS(1,:) = latRx1 + 180/pi * G(2,:)/6371008.8;
+    GPS(2,:) = lonRx1 + 180/pi * (G(1,:)/6371008.8) /cos(pi/180 * latRx1);
+end
+
+
+
+
+
+
