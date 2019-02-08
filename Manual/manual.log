@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.14)  7 FEB 2019 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.14)  8 FEB 2019 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,80 +1207,85 @@ LaTeX Info: Redefining \nameref on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./manual.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
-<rullebord1.jpg, id=77, 3661.68pt x 2746.26pt>
+))
+\tf@toc=\write5
+\openout5 = `manual.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \newpage
+              [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+
+[1] [2]
+<rullebord1.jpg, id=98, 3661.68pt x 2746.26pt>
 File: rullebord1.jpg Graphic file (type jpg)
 <use rullebord1.jpg>
-Package pdftex.def Info: rullebord1.jpg  used on input line 152.
-(pdftex.def)             Requested size: 217.37874pt x 163.0085pt.
-<rullebord2.jpg, id=78, 3661.68pt x 2746.26pt>
+Package pdftex.def Info: rullebord1.jpg  used on input line 184.
+(pdftex.def)             Requested size: 173.90033pt x 130.4068pt.
+<rullebord2.jpg, id=99, 3661.68pt x 2746.26pt>
 File: rullebord2.jpg Graphic file (type jpg)
 <use rullebord2.jpg>
-Package pdftex.def Info: rullebord2.jpg  used on input line 159.
-(pdftex.def)             Requested size: 217.37874pt x 163.0085pt.
-
-Overfull \hbox (51.65968pt too wide) in paragraph at lines 166--178
-\OT1/cmr/m/n/12 run the mat-lab script \OT1/cmtt/m/n/12 arduinoTest.m \OT1/cmr/
-m/n/12 in the R2018b re-lease and the \OT1/cmtt/m/n/12 get[]power[]measurements
-.m
- []
-
-[3 <./rullebord1.jpg>]
-<plotexample.png, id=91, 886.81313pt x 645.91313pt>
+Package pdftex.def Info: rullebord2.jpg  used on input line 184.
+(pdftex.def)             Requested size: 173.90033pt x 130.4068pt.
+ [3 <./rullebord1.jpg> <./rullebord2.jpg>]
+<plotexample.png, id=111, 886.81313pt x 645.91313pt>
 File: plotexample.png Graphic file (type png)
 <use plotexample.png>
-Package pdftex.def Info: plotexample.png  used on input line 186.
+Package pdftex.def Info: plotexample.png  used on input line 214.
 (pdftex.def)             Requested size: 434.75749pt x 316.6579pt.
- [4 <./rullebord2.jpg>] [5 <./plotexample.png>] [6]
-<databar.png, id=110, 1540.75626pt x 617.30624pt>
+ [4] [5 <./plotexample.png>]
+[6]
+<databar.png, id=133, 1540.75626pt x 617.30624pt>
 File: databar.png Graphic file (type png)
 <use databar.png>
 Package pdftex.def Info: databar.png  used on input line 275.
 (pdftex.def)             Requested size: 347.80731pt x 139.34946pt.
-<stairs.png, id=114, 1500.60625pt x 615.29875pt>
+<stairs.png, id=137, 1500.60625pt x 615.29875pt>
 File: stairs.png Graphic file (type png)
 <use stairs.png>
 Package pdftex.def Info: stairs.png  used on input line 282.
 (pdftex.def)             Requested size: 347.80731pt x 142.60481pt.
-
-[7] [8 <./databar.png> <./stairs.png>] [9] (./manual.bbl) [10
+ [7 <./databar.png> <./stairs.png>] [8] [9] (./manual.bbl) [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
- (./manual.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+
+(./manual.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `manual.out' has not changed.
-(rerunfilecheck)             Checksum: 68F4B188F11B0F2CD6D32376C0D2B768;679.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
+(rerunfilecheck)             Checksum: 3A4D85FDE984676C7F95C55515B2D738;679.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  ) 
 Here is how much of TeX's memory you used:
- 30371 strings out of 494880
- 707311 string characters out of 6179601
- 879114 words of memory out of 5000000
- 33150 multiletter control sequences out of 15000+600000
- 10319 words of font info for 39 fonts, out of 8000000 for 9000
+ 30378 strings out of 494880
+ 707386 string characters out of 6179601
+ 879116 words of memory out of 5000000
+ 33153 multiletter control sequences out of 15000+600000
+ 10925 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 64i,12n,111p,721b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,111p,828b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1290,10 +1295,10 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on manual.pdf (10 pages, 2569850 bytes).
+Output written on manual.pdf (12 pages, 2575249 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
