@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.14)  8 FEB 2019 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.14)  13 FEB 2019 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1255,17 +1255,17 @@ Package pdftex.def Info: plotexample.png  used on input line 214.
 (pdftex.def)             Requested size: 434.75749pt x 316.6579pt.
  [4] [5 <./plotexample.png>]
 [6]
-<databar.png, id=133, 1540.75626pt x 617.30624pt>
+<databar.png, id=131, 1540.75626pt x 617.30624pt>
 File: databar.png Graphic file (type png)
 <use databar.png>
 Package pdftex.def Info: databar.png  used on input line 275.
 (pdftex.def)             Requested size: 347.80731pt x 139.34946pt.
-<stairs.png, id=137, 1500.60625pt x 615.29875pt>
+<stairs.png, id=135, 1500.60625pt x 615.29875pt>
 File: stairs.png Graphic file (type png)
 <use stairs.png>
 Package pdftex.def Info: stairs.png  used on input line 282.
 (pdftex.def)             Requested size: 347.80731pt x 142.60481pt.
- [7 <./databar.png> <./stairs.png>] [8] [9] (./manual.bbl) [10
+ [7 <./databar.png>] [8 <./stairs.png>] [9] (./manual.bbl) [10
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
@@ -1281,11 +1281,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
 Here is how much of TeX's memory you used:
  30378 strings out of 494880
  707386 string characters out of 6179601
- 879116 words of memory out of 5000000
+ 879169 words of memory out of 5000000
  33153 multiletter control sequences out of 15000+600000
  10925 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 64i,12n,111p,828b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,111p,966b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1295,7 +1295,7 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on manual.pdf (12 pages, 2575249 bytes).
+Output written on manual.pdf (12 pages, 2575625 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  172 compressed objects within 2 object streams

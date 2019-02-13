@@ -205,14 +205,14 @@ To record data, perform the setup procedure, place yourself in the desired locat
 Furniture and people moving around in a room disturbs the measurements. To avoid furniture and most people the sensors could be raised to 2m or above, while keeping the antenna at the same height or moving it up. Remeber to note it in the metadata.
 
 \subsection{Postprocessing}
-As the data from the LIDAR sensors is saved to a \texttt{.mat} file, all one would have to do is to run the\texttt{GPSmapping.m} function with the proper filename. Then two sets of plots are made for a quick sanity check and then the GPS coordinates (in decimal degrees) and a \texttt{.kml} file is saved. The power measurements are also loaded and mapped to the positions utilizing timestamps. For the function to work, two GPS coordinates are needed as reference. One to map the origin and another one to map the angle of the wall. An illustration of how two GPS coordinates helps map a room can be seen in figure \ref{fig:map}. To find GPS coordinates, google map is here used and google earth is used to plot the measured coordinates. The GPS coordinates are manually written into the script. 
+As the data from the LIDAR sensors is saved to a \texttt{.mat} file, all one would have to do is to run the\texttt{GPSmapping.m} function with the proper filename. Then two sets of plots are made for a quick sanity check and then the GPS coordinates (in decimal degrees) and a \texttt{.kml} file is saved. The power measurements are also loaded and mapped to the positions utilizing timestamps. For the function to work, two GPS coordinates are needed as reference. One to map the origin and another one to map the angle of the wall. An illustration of how two GPS coordinates helps map a room can be seen in figure \ref{fig:map}. To find GPS coordinates, google map is here used and google earth is used to plot the measured coordinates. The GPS coordinates are manually written into the script. The GPS Coordinates used in the following examples are all found using google maps and estimating a position based on satellite pictuers. 
 
 The \texttt{postprocess.m} function called from within the \texttt{GPSmapping.m} script removes any surplus measurements. As of this moment only an extensive amount of TSMW measurements are handled. The power measurements are related to the position by taking the measurements closest in time and adding the mean of those as the recieved power.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{plotexample.png}
-\caption{Example of mapping from 2D to GPS}
+\caption{Example of mapping from 2D to GPS. The GPS coordinates are found by using google maps.}
 \label{fig:map}
 \end{figure}
 
